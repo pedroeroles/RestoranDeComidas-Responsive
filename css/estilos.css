@@ -1,0 +1,55 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	position: relative;
+}
+
+.bg-imagen{
+	background-image: url("../img/fotoTabla4.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 80vh;
+	max-width: 100%;
+}
+.bg-row{
+	background-color: rgba(50, 50, 15, 0.5);
+}
+
+.bg-dark{
+	background-color: rgba(0, 0, 0, 0.9) !important;
+}
+.bg-anuncio{
+	background-color: rgba(150, 80, 6, 0.6);
+}
+.seccion{
+	background-color:rgba(0, 0, 0, 0.9);
+}
+
+[id*="section"]{
+	min-height:300px;
+  }
+  .contenedor-scroll-spy{
+	height:35vh;
+  }
+
+#contacto{
+	background-image: url("../img/comidaRestorant2.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 50vh;
+	min-width: 100%;
+
+}
+.fondoBlack{
+	background-color: rgba(0, 0, 0, 0.767);
+	height: 100%;
+}
+.miLogo{
+	height: 50px;
+	width: 50px;
+}
